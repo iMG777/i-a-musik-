@@ -2,16 +2,22 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Gerador de Música AI</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Músicas com IA 🎵</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <h1>Gerador de Música com AI (Suno API)</h1>
-  <textarea id="prompt" placeholder="Descreva a música que deseja"></textarea><br>
-  <button id="generateBtn">Gerar Música</button>
+  <div class="container">
+    <h1>🎶 Crie sua Música com IA</h1>
+    <p>Digite uma descrição e clique em gerar:</p>
 
-  <div id="result"></div>
+    <input type="text" id="prompt" placeholder="Ex: Uma música calma no piano" />
+    <button id="generateBtn">Gerar Música</button>
 
-  <script src="script.js"></script>
+    <div id="result"></div>
+  </div>
+
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js"></script>
 </body>
 </html>
