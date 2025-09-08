@@ -18,7 +18,7 @@ export default async function handler(req, res) {
         style: "pop",
         instrumental: false,
         customMode: false,
-        callBackUrl: "https://SEU-PROJETO.vercel.app/api/callback"
+        callBackUrl: "https://i-a-musik-.vercel.app/api/callback"
       })
     });
 
