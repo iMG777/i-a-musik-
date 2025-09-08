@@ -13,11 +13,9 @@ export default async function handler(req, res) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        prompt,
-        model: "V3_5",
-        style: "pop",
-        instrumental: false,
-        customMode: false,
+        prompt,                // obrigatório
+        model: "V3_5",         // pode ser V4, V4_5 etc
+        customMode: false,     // não precisa de style/title
         callBackUrl: "https://i-a-musik-.vercel.app/api/callback"
       })
     });
