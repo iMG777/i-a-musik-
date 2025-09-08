@@ -1,9 +1,6 @@
 const generateBtn = document.getElementById("generateBtn");
 const resultDiv = document.getElementById("result");
 
-console.log("🎬 script.js carregado com sucesso");
-
-
 generateBtn.onclick = async () => {
   const promptText = document.getElementById("prompt").value;
   if (!promptText) {
